@@ -17,7 +17,7 @@ func main() {
 	// 3. Getting elements & The "Zero Value" rule
 	fmt.Println("Name:", m["name"])
 	fmt.Println("Area:", m["area"])
-	// "version" key map mein nahi hai, toh ye empty string "" return karega, crash nahi hoga
+	// "version" key will return the empty string , the compiler will not crash 
 	fmt.Println("Version (missing key):", m["version"]) 
 
 	// 4. Map with integer values
